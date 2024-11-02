@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.parcial_1.services.DnaServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-02T20:37:08" hostname="DESKTOP-CAMI" time="4.418">
+<testsuite name="org.parcial_1.services.DnaServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-02T22:26:54" hostname="DESKTOP-CAMI" time="7.044">
   <properties/>
-  <testcase name="testAnalyzeDna_AlreadyExists_ReturnsIsMutant()" classname="org.parcial_1.services.DnaServiceTest" time="4.418"/>
+  <testcase name="testAnalyzeDna_AlreadyExists_ReturnsIsMutant()" classname="org.parcial_1.services.DnaServiceTest" time="7.044"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
