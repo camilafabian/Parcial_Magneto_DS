@@ -1,8 +1,13 @@
 # Parcial1_Magneto_DS
-## Nivel 2: API REST para Detección de Mutantes
+# DETECCIÓN DE MUTANTES
+## Nivel 1: Creación del Método 'isMutant'
+
+- Esta funcion **isMutant(String[] dna)** determina si la secuencia de ADN es de un **mutante**.
+
+## Nivel 2: API REST para la Detección de Mutantes
 
 1. **Crear la API REST**:
-    - Esta API está diseñada para detectar si un humano es mutante mediante una secuencia de 4 elementosde ADN.
+    - Esta API está diseñada para detectar si un humano es mutante mediante una secuencia de ADN.
 
 2. **Hostear la API**:
     - La API se encuentra hospedada en Render.
@@ -32,8 +37,7 @@
 ## Nivel 3: Integración de Base de Datos y Estadísticas
 
 1. **Integración de H2**:
-    - Se ha anexado una base de datos H2 para almacenar los ADN verificados.
-    - Solo se permite un registro por ADN.
+    - Se ha anexado una base de datos H2 para almacenar los ADN verificados. Se permite un solo registro por ADN.
 
 2. **Endpoint de Estadísticas**:
     - Un servicio adicional para exponer estadísticas de verificaciones de ADN:
@@ -59,10 +63,9 @@
 
 ---
 
-## Resultados de Pruebas
+## Adjuntos
 
-- **Resultados de JMeter**:
-    - Los resultados obtenidos de las pruebas de carga con JMeter se encuentran en el PDF
-
-- **Resultados de JaCoCo**:
-    - Los resultados de las pruebas automáticas y la cobertura de código con JaCoCo se encuentran en el PDF
+- **Contenido del PDF ajunto con el nombre: 'Parcial1_DS_CamilaFabian''**:
+    - Los resultados obtenidos de las pruebas de carga con JMeter y Junit.
+    - Los resultados de las pruebas automáticas y la cobertura de código con JaCoCo.
+    - El Diagrama de Secuencia.
